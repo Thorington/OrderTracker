@@ -17,19 +17,49 @@ div#header {
   background:rgb(215, 244, 251);
   padding:8px;
   font-family: Snell Roundhand, cursive;
-  font-size: 50px;
+  font-size: 75px;
 }
 
 h1 {
   color:rgb(101, 180, 200);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-a {
+h2 {
+  color: rgb(101, 180, 200);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: rgb(101, 180, 200);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+a:link {
+  color: rgb(101, 180, 200);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(101, 180, 200);
+  text-decoration: none;
+}
+
+a:hover {
   color: pink;
+  text-decoration: none;
 }
 
-div#welcome {
-  margin-top: 150px;
+a:active {
+  color: rgb(101, 180, 200);
+  text-decoration: none;
+}
+
+body {
+  margin-top: 200px;
   margin-left: 100px;
   font-family: Optima, sans-serif;
 }
