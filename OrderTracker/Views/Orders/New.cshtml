@@ -6,8 +6,23 @@
 
   <form action="/vendors/@Model.Id/orders" method="post">
   <input id="vendorId" name="vendorId" type="hidden" value="@Model.Id">
-  <label for="orderDescription">Order description</label>
-  <input id="orderDescription" name="orderDescription" type="text">
+
+  <p>Title</p>
+  <input id="orderTitle" name="orderTitle" type="text" input size="50">
+  <br>
+  <br>
+  <p>Date</p>
+  <input id="orderDate" name="orderDate" type="text">
+  <br>
+  <br>
+  <p>Description</p>
+  <input id="orderDescription" name="orderDescription" type="text" input size="50">
+  <br>
+  <br>
+  <p>Price</p>
+  <input id="orderPrice" name="orderPrice" type="text">
+  <br>
+  <br>
   <button type='submit'>Add order</button>
   </form>
   <br>
