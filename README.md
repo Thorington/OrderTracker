@@ -14,6 +14,7 @@
 * C#
 * .NET
 * MS Test
+* ASP.NET Core MVC
 * Razor
 
 ## Description
