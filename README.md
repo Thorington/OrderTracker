@@ -1,6 +1,6 @@
 # _Independent Project #8: Pierre's Vendor & Order Tracker_
 
-![a picture of the Pierre's Bakery header](~/img/header.jpg)
+![a picture of the Pierre's Bakery header](OrderTracker/wwwroot/img/header.jpg)
 #### Contributors: _**Claire Thorington**_
 
 #### _A page demonstrating new skills in C# and .NET!_
