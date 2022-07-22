@@ -7,3 +7,29 @@ div#footer {
   background:rgb(215, 244, 251);
   padding:8px;
 }
+
+div#header {
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100%;
+  color:rgb(101, 180, 200);
+  background:rgb(215, 244, 251);
+  padding:8px;
+  font-family: Snell Roundhand, cursive;
+  font-size: 50px;
+}
+
+h1 {
+  color:rgb(101, 180, 200);
+}
+
+a {
+  color: pink;
+}
+
+div#welcome {
+  margin-top: 150px;
+  margin-left: 100px;
+  font-family: Optima, sans-serif;
+}

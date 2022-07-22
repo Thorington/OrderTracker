@@ -25,14 +25,17 @@ namespace OrderTracker
 
     public void Configure(IApplicationBuilder app)
     {
+      
       app.UseDeveloperExceptionPage();
       app.UseRouting();
+      app.UseStaticFiles();
 
       app.UseEndpoints(routes =>
       {
         routes.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
       });
 
+      
       app.Run(async (context) =>
       {
         await context.Response.WriteAsync("ERROR");
