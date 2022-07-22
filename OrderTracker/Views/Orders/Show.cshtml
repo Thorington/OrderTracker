@@ -2,9 +2,9 @@
   Layout = "_Layout";
       }
 
-<h1>🛎️ Orders for @Model["vendor"].Name </h1>
+<h1>🛎️ Order for @Model["vendor"].Name </h1>
 
-    <p>@Model["order"].Title</p>
+    <p><b>@Model["order"].Title</b></p>
     <p>@Model["order"].Date</p>
     <p>@Model["order"].Description</p>
     <p>@Model["order"].Price</p>
@@ -12,7 +12,8 @@
     <br>
     <br>
     <p><a href='/vendors/@Model["vendor"].Id/orders/new'>Add another order</a></p>
-    <p></p><a href='/vendors'>Back to vendors</a></p>
+    <p><a href='/vendors/@Model["vendor"].Id'>Back to orders for @Model["vendor"].Name </a></p>
+    <p><a href='/vendors'>Back to vendors</a></p>
     <p><a href='/'>Back to home</a></p>
 
       

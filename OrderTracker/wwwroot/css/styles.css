@@ -4,7 +4,7 @@ div#footer {
   left:0px;
   width:100%;
   color:#CCC;
-  background:rgb(215, 244, 251);
+  background:rgb(232, 247, 250);
   padding:8px;
 }
 
@@ -14,14 +14,14 @@ div#header {
   left:0px;
   width:100%;
   color:rgb(101, 180, 200);
-  background:rgb(215, 244, 251);
+  background:rgb(232, 247, 250);
   padding:8px;
   font-family: Snell Roundhand, cursive;
   font-size: 75px;
 }
 
 h1 {
-  color:rgb(101, 180, 200);
+  color:black;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -59,7 +59,21 @@ a:active {
 }
 
 body {
-  margin-top: 200px;
-  margin-left: 100px;
   font-family: Optima, sans-serif;
+  background-image: url("../img/background.jpg");
+  
+}
+
+main {
+  margin-top: 200px;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: left;
+  font-family: Optima, sans-serif;
+  background-color: white;
+  padding: 35px;
+  border-radius: 10px;
+  border-color: rgb(232, 247, 250);
+  border-style: double;
+  border-width: 10px;
 }
