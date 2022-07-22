@@ -4,7 +4,14 @@
 
   @using OrderTracker.Models;
 
-    <h3>Here are all the orders for this vendor:</h3>
+    <h3>🛎️ Here are all the orders for @Model["vendor"].Name:</h3>
+
+    <ol>
+    @if (@Model.Count == 0)
+  {
+    <p><em>No orders have been added yet!</em></p>
+  }
+    </ol>
 
     <ol>
     @foreach (Order order in @Model["orders"])
@@ -12,7 +19,8 @@
       <li><a href='/vendors/@Model["vendor"].Id/orders/@order.Id'>@order.Description</a></li>
     }
     </ol>
-
+    <br>
+    <br>
     <p><a href='/vendors/@Model["vendor"].Id/orders/new'>Add a new order</a></p>
     <p><a href='/vendors'>Back to vendors</a></p>
     <p><a href='/'>Back to home</a></p>
