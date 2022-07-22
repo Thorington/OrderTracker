@@ -27,7 +27,7 @@ The home page welcomes Pierre to his Vendor & Order Tracker: an application to h
 
 * Clone repository to desktop
 * Follow the steps on this page to install C# and .NET on your computer: [(https://www.learnhowtoprogram.com/c-and-net/getting-started-with-c/installing-c-and-net)]
-* To run program, navigate to the __OrderTracker__ folder in your terminal and type _$ dotnet run_
+* To run program, navigate to the __OrderTracker__ folder in your terminal and type _$ dotnet restore_ and then _$ dotnet build_ and then _$ dotnet run_ 
 * To run tests, navigate to the __OrderTracker.Tests__ folder in your terminal and type _$ dotnet test_
 
 ## Known Bugs
